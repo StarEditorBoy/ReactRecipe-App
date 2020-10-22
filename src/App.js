@@ -2,9 +2,7 @@ import React, { useEffect, useState } from "react";
 import style from "./styles.css";
 import Recipe from "./Recipe";
 const App = () => {
-  const APP_ID = "06d9433a"; //*****You have to do a last */
-  const APP_KEY = "37b5b74816f5dd304965ec1542b84f25";
-
+ 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("cake");
